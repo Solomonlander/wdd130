@@ -49,6 +49,10 @@ footer {
 .abc{
     background-color: #000;
 }
-{
-  /* i love Nigeria */
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+h1{
+  font-weight: 100;
 }
