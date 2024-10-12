@@ -1,0 +1,28 @@
+:root {
+    ---primary-color: "FFFFFF" white;
+    --Seconday-color: #000BAD;
+    --Accent1: #003401;
+    --Accent2: #000076; 
+}
+a{
+    text-decoration: none;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1 {
+    position: absolute;
+}
+article{
+    position: absolute;
+    width: 300px;
+    background-color: 
+}
+.center{
+    float: right;
+}
+.sociallinks img{
+    width: 40px;
+}
