@@ -27,6 +27,10 @@ h1 {
 nav {
 	text-align: right;
 }
+.grid-container {
+	display: grid;
+  grid: 150px / auto auto auto;
+}
 
 .navigation {
 	display: flex;
