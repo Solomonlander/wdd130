@@ -1,9 +1,4 @@
-:root {
-    ---primary-color: white;
-    --Seconday-color: #000BAD;
-    --Accent1: #003401;
-    --Accent2: #000076; 
-}
+
 header {
 	margin: 1rem auto;
 	display: grid;
