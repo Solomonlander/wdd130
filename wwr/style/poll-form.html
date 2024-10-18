@@ -6,6 +6,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="https://fonts.googleapis.com/css2?family=merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="poll-form.css">
 </head>
 <body>
     <header>
@@ -15,6 +16,10 @@
       <form>
         <fieldset>
             <legend>Contact Information</legend>
+            <div class="form-item">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+            </div>
             <label for="fullname">Full Name:</label>
             <input type="text" id="fullname" name="fullname">
             <label for="useremail">Email:</label>
@@ -31,6 +36,14 @@
                 <option value="brave">Brave</option>
                 <option value="other">Other</option>
             </select>
+            <div class="form-item column2">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname">
+            </div>
+            <div class="form-item column2">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+            </div>
             <label for="pet">Do you have a household pet</label>
             <input type="checkbox" id="pet" name="pet"> 
             <label for="feedback">List the places you have lived:</label>
@@ -40,7 +53,7 @@
       </form>
     </main>
     <footer>
-        <p>&2024 | HTML Form - User Poll Activity | Solomon Lander</p>
+        <p>&copy;2024 | HTML Form - User Poll Activity | Solomon Lander</p>
     </footer>
 </body>
 </html>
