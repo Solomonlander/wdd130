@@ -10,12 +10,12 @@ body {
   background: #fff;
 }
 header {
-    margin: 0auto;
+    margin: 0 auto;
     width: 650px;
 }
 h1 {
     margin: 1rem;
-    font-size: 1.5;
+    font-size: 1.5rem;
     color: navy;
     text-align: center;
 }
@@ -62,7 +62,7 @@ button {
     color: #fff;
     border: none;
     border-radius: .5rem;
-    padding: 2rem;
+    padding: 0rem;
     font-size: 1.2rem;
 }
 button:hover {
