@@ -179,3 +179,13 @@ section{
 .sociallinks img{
     width: 40px;
 }
+footer{
+	padding: 25px 50px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+footer img{
+	padding-top: 15px;
+}
