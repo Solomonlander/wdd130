@@ -27,6 +27,7 @@ table {
 th {
     text-align: center;
 }
+
 table, th, td {
     border: 1px solid #05080bf7;
     size-adjust: 1px;
