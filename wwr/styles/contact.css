@@ -107,10 +107,10 @@ button {
     border: none;
     border-radius: .5rem;
     padding: 0rem;
-    font-size: 1.2rem;
+    font-size: 3.2rem;
 }
 button:hover {
-    background-color: darkgreen;
+    background-color: rgb(203, 88, 6);
 }
 
 .form-item {

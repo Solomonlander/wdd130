@@ -89,15 +89,39 @@
                     <option value="brave">Brave</option>
                     <option value="other">Other</option>
                 </select>
-                <label for="pet">Do you have a household pet</label>
-                <input type="checkbox" id="pet" name="pet"> 
-                <label for="feedback">List the places you have lived:</label>
-                <input type="radio">
-                <input type="radio">
-                <input type="radio">
+                <legend>Do you have a household pet</legend>
+                <label for="pet"></label>
+                <input type="checkbox" id="pet" name="pet">
+                <div>
+                    <label for="where-have-you-visit-before">Lise where you have visit before:</label>
+                </div> 
                 <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
             </fieldset>
-            <button type="submit">submit Poll</button>
+            <fieldset>
+                <legend>How Did You Hear About Us</legend>
+                <div>
+                    <input type="radio">
+                    <label for="general-inquiry">General Inquiry</label>
+                </div>
+                <div>
+                    <input type="radio">
+                    <label for="reservation-question">Resrvation Question</label>
+                </div>
+                <div>
+                    <input type="radio">
+                    <label for="website-suggestion">Website Suggestion</label>
+                </div>
+                <div>
+                    <label for="Please-Leave-Us-a-Message-of-your-adventure">Please leave Us a Message of Your Adventure:
+                    </label>
+                </div>
+                <textarea id="Message" name="Message" rows="4" placeholder="We had a great time. Must do this again. Coming back next year"></textarea>
+                <div>
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                </div>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
           </form>
     </main>
     <div>
