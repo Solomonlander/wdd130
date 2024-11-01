@@ -1,0 +1,146 @@
+:root {
+    --primary-color: white;
+    --Seconday-color: #000BAD;
+    --Accent1: #003401;
+    --Accent2: #000076; 
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+.logo {
+    margin: 0 0.25rem 0 1rem;
+	width: 85px;
+	height: auto;
+}
+
+h1 {
+	font-size: 2rem;
+	font-family: Acme, Arial, sans-serif;
+}
+h2 {
+    padding: 10px;
+    margin: 5;
+}
+a {
+    padding: 10;
+    margin-top: 10;
+    color: #003401;
+}
+
+nav {
+	text-align: right;
+}
+.grid-container {
+	display: grid;
+  grid: 150px / auto auto auto;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.center img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+
+
+a{
+    text-decoration: none;
+}
+.mountains{
+	grid-column: 2/7;
+	grid-row: 5/8;
+	box-shadow: 5px 5px 10px #6f7364;
+  }
+  .msg{
+	grid-column: 6/10;
+	grid-row: 6/7;
+	box-shadow: 5px 5px 10px #bcc0b3;
+  }
+  .card-img:hover{
+	opacity: .6;
+	transform: scale(1.1);
+  }
+  h1 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: navy;
+    text-align: center;
+}
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #1ad3ecf9;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+label, input, button, select textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 2.1rem;
+}
+.sociallinks img{
+    width: 50px;
+}
+footer{
+	padding: 25px 50px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+footer img{
+	padding-top: 15px;
+}
